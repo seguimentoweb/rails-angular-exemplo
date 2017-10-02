@@ -1,0 +1,19 @@
+<h1>Listin all products</h1>
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Quantity</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-ng-repeat="product in products">
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.quantity }}</td>
+        </tr>
+    </tbody>
+</table>
